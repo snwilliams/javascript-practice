@@ -12,5 +12,7 @@ const content = `
     </main>
 `;
 
-document.body.innerHTML = content;
+const main = document.createElement("main");
+main.innerHTML = content;
+document.body.appendChild(main);
 
