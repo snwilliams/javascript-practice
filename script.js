@@ -2,8 +2,7 @@
  * This is a file to practice various JavaScript concepts
  */
 
-// Practice 1: Outputting text using template literals
-// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+// Practice 1: Outputting text using innerHTML
 
 const content = `
     <main>
