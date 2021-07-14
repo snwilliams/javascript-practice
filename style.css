@@ -1,0 +1,23 @@
+.siteTitle {
+  text-align: center;
+  font-family: "Oswald";
+}
+
+.main-nav ul {
+  margin: 0;
+  background-color: #173f5f;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.main-nav ul li {
+  display: block;
+  padding: 0.5rem 2rem;
+  color: white;
+  font-family: "Oswald";
+}
+
+.main-nav ul li:hover {
+  background-color: #20639b;
+}
