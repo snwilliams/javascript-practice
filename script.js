@@ -3,24 +3,23 @@
  */
 
 // Practice 1: Outputting text using innerHTML and appendChild
+// To build on what I've learned doing this, I am going to make
+// a nav element
 
-const content = `
-    <main>
-        <h1>Here is a Title</h1>
-        <p>Here is a paragraph</p>
-    </main>
+const navContent = `
+    <li>Home</li>
+    <li>About Me</li>
+    <li>My Projects</li>
 `;
 
-const newContent = '<p>This is otherContent</p>';
+const mainNav = document.createElement("nav");
+mainNav.classList.add("main-nav");
+const navList = document.createElement("ul");
+navList.innerHTML = navContent;
+mainNav.append(navList);
 
-const main = document.createElement("main");
-main.innerHTML = content;
-document.body.appendChild(main);
-
-const otherContent = document.createElement("otherContent");
-otherContent.innerHTML = newContent;
-document.body.appendChild(otherContent);
+document.querySelector(".header").append(mainNav);
 
 
-//document.body.innerHTML=content;
+
 
