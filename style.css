@@ -1,6 +1,7 @@
 .siteTitle {
   text-align: center;
   font-family: "Oswald";
+  color: #173f5f;
 }
 
 .main-nav ul {
@@ -21,3 +22,10 @@
 .main-nav ul li:hover {
   background-color: #20639b;
 }
+
+/* Color Palette: */
+/*RED: #ed553b */
+/*YELLOW: #f6d55c */
+/*TEAL: #3caea3 */
+/*LIGHT BLUE: #20639b */
+/* DARK BLUE: #173f5f */
