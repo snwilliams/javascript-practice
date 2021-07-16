@@ -1,7 +1,45 @@
+header {
+  padding-top: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(116, 113, 114, 0.3),
+      rgba(75, 71, 73, 0.3)
+    ),
+    url(./assets/mountains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainContent {
+  max-width: 800px;
+  margin: auto;
+}
+
 .siteTitle {
   text-align: center;
   font-family: "Oswald";
-  color: #173f5f;
+  color: white;
+  margin: 0;
+}
+
+#jobTitle {
+  padding-bottom: 1em;
+}
+
+.navBlock {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-nav {
+  margin: 0px;
+  padding: 0px;
 }
 
 .main-nav ul {
@@ -17,10 +55,15 @@
   padding: 0.5rem 2rem;
   color: white;
   font-family: "Oswald";
+  font-size: 1.25em;
 }
 
 .main-nav ul li:hover {
   background-color: #20639b;
+}
+
+.mainText {
+  font-family: "Lato";
 }
 
 /* Color Palette: */

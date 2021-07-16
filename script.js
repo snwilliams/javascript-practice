@@ -18,7 +18,9 @@ const navList = document.createElement("ul");
 navList.innerHTML = navContent;
 mainNav.append(navList);
 
-document.querySelector(".header").append(mainNav);
+document.querySelector(".navBlock").append(mainNav);
+
+
 
 
 
