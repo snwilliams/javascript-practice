@@ -50,7 +50,7 @@ body {
   list-style-type: none;
 }
 
-.main-nav ul a li {
+.main-nav ul li {
   display: block;
   padding: 0.5rem 2rem;
   color: white;
@@ -58,17 +58,8 @@ body {
   font-size: 1.25em;
 }
 
-.main-nav ul a li:hover {
+.main-nav ul li:hover {
   background-color: #20639b;
-}
-
-.main-nav ul a {
-  text-decoration: none;
-}
-
-.main-nav ul a:visited {
-  text-decoration: none;
-  color: white;
 }
 
 .mainText {
